@@ -2,7 +2,7 @@ import { ActionFunction, json, LoaderFunction } from "@remix-run/node";
 import { Form, Link } from "@remix-run/react";
 import { useState } from "react";
 import { useTypedActionData } from "remix-typedjson";
-import ButtonPrimary from "~/components/ui/buttons/ButtonPrimary";
+import LoadingButton from "~/components/ui/buttons/LoadingButton";
 import ServerError from "~/components/ui/errors/ServerError";
 import InputText from "~/components/ui/input/InputText";
 import EditPageLayout from "~/components/ui/layouts/EditPageLayout";
@@ -121,7 +121,7 @@ export default function AdminEntityTemplatesManual() {
                   />
                 </div>
                 <div className="flex justify-end">
-                  <ButtonPrimary type="submit">Preview</ButtonPrimary>
+                  <LoadingButton type="submit">Preview</LoadingButton>
                 </div>
               </div>
             </Form>
@@ -135,9 +135,9 @@ export default function AdminEntityTemplatesManual() {
                 <div className="space-y-2">
                   <PreviewKbsTemplate template={actionData.previewTemplate} />
                   <div className="flex justify-end space-x-2">
-                    <ButtonPrimary type="submit">
+                    <LoadingButton type="submit">
                       <span>Import</span>
-                    </ButtonPrimary>
+                    </LoadingButton>
                   </div>
                 </div>
               </Form>
