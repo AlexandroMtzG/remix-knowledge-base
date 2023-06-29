@@ -1,8 +1,10 @@
 # saasrock-kb
 
-### What is [SaasRock KB](https://kb.saasrock.com/)?
+### What is SaasRock KB?
 
-This is the Knowledge Base feature of [SaasRock](https://saasrock.com/?ref=saasrock-kb&utm_source=admin). I used [Intercom](https://www.intercom.com/help) and [Crisp](https://help.crisp.chat/en/) help centers as "inspiration" 😛.
+This is the Knowledge Base feature of [SaasRock](https://saasrock.com/?ref=saasrock-kb&utm_source=admin). I used **Intercom** and **Crisp** help centers as "inspiration" 😛.
+
+![SaasRock KB](https://yahooder.sirv.com/saasrock-kb/cover.png)
 
 ### Demo
 
@@ -53,6 +55,6 @@ Licensed under the MIT License.
 
 ### Sponsor
 
-If you find [SaasRock KB](https://kb.saasrock.com/) useful and would like to support its development, consider becoming a sponsor. Your sponsorship will help ensure the continued maintenance and improvement of this project.
+If you find **SaasRock KB** useful and would like to support its development, consider becoming a sponsor. Your sponsorship will help ensure the continued maintenance and improvement of this project.
 
 You can sponsor me on [GitHub Sponsors](https://github.com/sponsors/AlexandroMtzG). Every contribution is highly appreciated!

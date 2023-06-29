@@ -57,6 +57,6 @@ export default function Index() {
   );
 }
 
-export function ErrorBoundary({ error }: { error: Error }) {
-  return <ServerError error={error} />;
+export function ErrorBoundary() {
+  return <ServerError />;
 }

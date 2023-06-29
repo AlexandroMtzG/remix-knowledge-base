@@ -13,5 +13,6 @@ module.exports = {
   future: {
     unstable_tailwind: true,
     v2_meta: true,
+    v2_errorBoundary: true,
   },
 };
