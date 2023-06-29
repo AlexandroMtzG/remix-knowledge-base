@@ -9,7 +9,7 @@ This is the Knowledge Base feature of [SaasRock](https://saasrock.com/?ref=saasr
 ### Demo
 
 - Try it out: [https://kb.saasrock.com/](https://kb.saasrock.com/)
-- Watch a demo: [https://www.youtube.com/watch?v=8Z3Z2Z2Z2Z2](https://www.youtube.com/watch?v=8Z3Z2Z2Z2Z2)
+- Watch a demo: [loom.com/share/c5d6a04da4214e3689b38d0e5d211e25?sid=966c20d6-d1cc-4da5-a063-1d395fd89e9e](https://www.loom.com/share/c5d6a04da4214e3689b38d0e5d211e25?sid=966c20d6-d1cc-4da5-a063-1d395fd89e9e)
 
 ### Getting Started
 
