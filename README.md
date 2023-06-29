@@ -19,9 +19,7 @@ This is the Knowledge Base feature of [SaasRock](https://saasrock.com/?ref=saasr
 npm install
 ```
 
-2. Set the `DATABASE_URL` environment variable. Keep in mind that your `schema.prisma` db provider must match the `DATABASE_URL` provider.
-
-3. Initialize the database:
+2. Initialize the database _(the `schema.prisma` db provider must match the `DATABASE_URL` provider)_:
 
 ```
 npx prisma migrate dev --name init
@@ -33,7 +31,7 @@ or
 npx prisma db push
 ```
 
-4. Start the development server:
+3. Start the development server:
 
 ```
 npm run dev
