@@ -2,7 +2,7 @@ import type { LinksFunction, LoaderArgs, V2_MetaFunction } from "@remix-run/node
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from "@remix-run/react";
 import { useTypedLoaderData } from "remix-typedjson";
 import stylesheet from "~/tailwind.css";
-import { loadRootData } from "./utils/data/root-data";
+import { loadRootData, useRootData } from "./utils/data/root-data";
 
 export const links: LinksFunction = () => [{ rel: "stylesheet", href: stylesheet }];
 export const meta: V2_MetaFunction = ({ data }) => data?.metatags;
@@ -12,6 +12,7 @@ export let loader = async ({ request }: LoaderArgs) => {
 };
 
 export default function App() {
+  const rootData = useRootData();
   const data = useTypedLoaderData<{ debug: boolean }>();
   return (
     <html lang="en">
@@ -32,6 +33,15 @@ export default function App() {
             </noscript>
           </>
         )}
+
+        {rootData.chatWebsiteId && (
+          <div
+            dangerouslySetInnerHTML={{
+              __html: `<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="${rootData.chatWebsiteId}";(function(){d = document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>`,
+            }}
+          ></div>
+        )}
+
         <Outlet />
         <ScrollRestoration />
         <Scripts />

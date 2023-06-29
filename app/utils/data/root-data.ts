@@ -7,6 +7,7 @@ export type AppRootData = {
   metatags: MetaTagsDto;
   userSession: UserSession;
   debug: boolean;
+  chatWebsiteId?: string;
 };
 
 export function useRootData(): AppRootData {
@@ -37,7 +38,7 @@ export async function loadRootData({ request }: { request: Request }) {
     metatags: [
       { charset: "utf-8" },
       { title: metatags.title },
-      { viewport: "width=device-width,initial-scale=1" },
+      { name: "viewport", content: "width=device-width,initial-scale=1" },
       { name: "description", content: "Intercom-like knowledge base with WYSIWYG and Markdown support" },
       // { name: "keywords", content: kb.keywords },
       { name: "og:title", content: metatags.title },
@@ -51,6 +52,7 @@ export async function loadRootData({ request }: { request: Request }) {
     ],
     userSession: userInfo,
     debug: process.env.NODE_ENV === "development",
+    chatWebsiteId: process.env.CHAT_WEBSITE_ID,
   };
 
   return json(data, { headers });

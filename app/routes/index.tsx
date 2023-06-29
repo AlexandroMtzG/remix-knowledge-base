@@ -1,5 +1,6 @@
 import { json } from "@remix-run/node";
 import { Link } from "@remix-run/react";
+import { useEffect } from "react";
 import { useTypedLoaderData } from "remix-typedjson";
 import Header from "~/components/Header";
 import ServerError from "~/components/ServerError";
@@ -18,6 +19,14 @@ export let loader = async () => {
 
 export default function Index() {
   const data = useTypedLoaderData<LoaderData>();
+  useEffect(() => {
+    try {
+      // @ts-ignore
+      $crisp?.push(["do", "chat:show"]);
+    } catch (e) {
+      // ignore
+    }
+  }, []);
   return (
     <div>
       <Header />
