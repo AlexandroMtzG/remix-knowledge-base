@@ -13,19 +13,21 @@ This is the Knowledge Base feature of [SaasRock](https://saasrock.com/?ref=saasr
 
 ### Getting Started
 
-Install dependencies:
+1. Install dependencies:
 
 ```
 npm install
 ```
 
-Seed the database:
+2. Set the `DATABASE_URL` environment variable. Keep in mind that your `schema.prisma` db provider must match the `DATABASE_URL` provider.
+
+3. Seed the database:
 
 ```
 npx prisma migrate dev --name init
 ```
 
-Start the development server:
+4. Start the development server:
 
 ```
 npm run dev
