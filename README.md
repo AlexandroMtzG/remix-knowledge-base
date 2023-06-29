@@ -21,10 +21,16 @@ npm install
 
 2. Set the `DATABASE_URL` environment variable. Keep in mind that your `schema.prisma` db provider must match the `DATABASE_URL` provider.
 
-3. Seed the database:
+3. Initialize the database:
 
 ```
 npx prisma migrate dev --name init
+```
+
+or
+
+```
+npx prisma db push
 ```
 
 4. Start the development server:
