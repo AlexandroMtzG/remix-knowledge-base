@@ -46,6 +46,14 @@ export default function Index() {
                   </Link>
                 );
               })}
+              <iframe
+                key="demo"
+                src="https://www.loom.com/embed/c5d6a04da4214e3689b38d0e5d211e25"
+                title="Introduction to SaasRock KB"
+                loading="lazy"
+                className="min-h-full w-full object-cover md:h-auto"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
             </div>
           )}
         </div>
