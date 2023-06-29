@@ -38,7 +38,6 @@ export async function loadRootData({ request }: { request: Request }) {
     metatags: [
       { charset: "utf-8" },
       { title: metatags.title },
-      { name: "viewport", content: "width=device-width,initial-scale=1" },
       { name: "description", content: "Intercom-like knowledge base with WYSIWYG and Markdown support" },
       // { name: "keywords", content: kb.keywords },
       { name: "og:title", content: metatags.title },
