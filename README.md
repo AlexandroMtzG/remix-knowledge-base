@@ -55,6 +55,10 @@ npm run dev
 - Join the [Discord](https://discord.gg/KMkjU2BFn9) to chat with other SaasRock users or to DM me directly.
 - Follow [SaasRock](https://twitter.com/saas_rock) or [me](https://twitter.com/AlexandroMtzG) on Twitter.
 
+### SaasRock
+
+If you liked this project, you might also like [SaasRock](https://saasrock.com/?ref=saasrock-kb&utm_source=admin), a SaaS starter kit that helps you build your SaaS faster.
+
 ### License
 
 Licensed under the MIT License.
