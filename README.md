@@ -2,7 +2,7 @@
 
 ### What is SaasRock KB?
 
-This is the Knowledge Base feature of [SaasRock](https://saasrock.com/?ref=saasrock-kb&utm_source=admin). I used **Intercom** and **Crisp** help centers as "inspiration" 😛.
+This is the Knowledge Base feature of [SaasRock](https://saasrock.com/?ref=saasrock-kb&utm_source=readme). I used **Intercom** and **Crisp** help centers as "inspiration" 😛.
 
 ![SaasRock KB](https://yahooder.sirv.com/saasrock-kb/cover.png)
 
@@ -57,7 +57,7 @@ npm run dev
 
 ### SaasRock
 
-If you liked this project, you might also like [SaasRock](https://saasrock.com/?ref=saasrock-kb&utm_source=admin), a SaaS starter kit that helps you build your SaaS faster.
+If you liked this project, you might also like [SaasRock](https://saasrock.com/?ref=saasrock-kb&utm_source=readme), a SaaS starter kit that helps you build your SaaS faster.
 
 ### License
 
