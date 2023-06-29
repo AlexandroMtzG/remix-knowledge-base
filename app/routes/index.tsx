@@ -19,14 +19,7 @@ export let loader = async () => {
 
 export default function Index() {
   const data = useTypedLoaderData<LoaderData>();
-  useEffect(() => {
-    try {
-      // @ts-ignore
-      $crisp?.push(["do", "chat:show"]);
-    } catch (e) {
-      // ignore
-    }
-  }, []);
+
   return (
     <div>
       <Header />

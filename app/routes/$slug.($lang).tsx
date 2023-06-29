@@ -12,7 +12,6 @@ import type { MetaTagsDto } from "~/application/dtos/seo/MetaTagsDto";
 import KbFeaturedArticles from "~/modules/knowledgeBase/components/KbFeaturedArticles";
 import { createKnowledgeBaseView } from "~/modules/knowledgeBase/db/kbAnalytics.db.server";
 import { getUserInfo } from "~/utils/session/session.server";
-import { useEffect } from "react";
 
 type LoaderData = {
   metatags: MetaTagsDto;
@@ -50,15 +49,6 @@ export const meta: V2_MetaFunction = ({ data }) => data?.metatags;
 
 export default function Index() {
   const data = useTypedLoaderData<LoaderData>();
-
-  useEffect(() => {
-    try {
-      // @ts-ignore
-      $crisp?.push(["do", "chat:hide"]);
-    } catch (e) {
-      // ignore
-    }
-  }, []);
 
   return (
     <div className="min-h-screen">
