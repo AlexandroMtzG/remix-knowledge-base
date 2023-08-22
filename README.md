@@ -59,6 +59,16 @@ npm run dev
 
 If you liked this project, you might also like [SaasRock](https://saasrock.com/?ref=saasrock-kb&utm_source=readme), a SaaS starter kit that helps you build your SaaS faster.
 
+### Docker
+
+To run the project in docker, create the .env file and add in the variables as in the .env.example file
+You will need to initiate a new instance on supabase and copy-paste the creds into the .env file
+Build the image then run it with docker-compose file
+Feel free to make changes that suit your docker needs
+Done by https://github.com/32dantey/
+
+
+
 ### License
 
 Licensed under the MIT License.
@@ -68,3 +78,6 @@ Licensed under the MIT License.
 If you find **SaasRock KB** useful and would like to support its development, consider becoming a sponsor. Your sponsorship will help ensure the continued maintenance and improvement of this project.
 
 You can sponsor me on [GitHub Sponsors](https://github.com/sponsors/AlexandroMtzG). Every contribution is highly appreciated!
+
+
+
