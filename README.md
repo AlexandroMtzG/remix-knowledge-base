@@ -1,6 +1,6 @@
-# saasrock-kb
+# remix-knowledge-base
 
-### What is SaasRock KB?
+### What is Remix Knowledge Base?
 
 This is the Knowledge Base feature of [SaasRock](https://saasrock.com/?ref=saasrock-kb&utm_source=readme). I used **Intercom** and **Crisp** help centers as "inspiration" 😛.
 
@@ -8,7 +8,7 @@ This is the Knowledge Base feature of [SaasRock](https://saasrock.com/?ref=saasr
 
 ### Demo
 
-- Try it out: [https://kb.saasrock.com/](https://kb.saasrock.com/)
+- Demo: [https://saasrock.com/docs](https://saasrock.com/docs)
 - [Watch the introduction video demo](https://www.loom.com/share/c5d6a04da4214e3689b38d0e5d211e25)
 
 ### Getting Started
