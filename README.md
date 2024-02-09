@@ -1,4 +1,4 @@
-# Remix Knowledge Base?
+# Remix Knowledge Base
 
 This is the Knowledge Base feature of [SaasRock](https://saasrock.com/?ref=saasrock-kb&utm_source=readme). I used **Intercom** and **Crisp** help centers as "inspiration" 😛.
 
