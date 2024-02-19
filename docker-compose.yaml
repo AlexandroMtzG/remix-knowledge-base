@@ -1,0 +1,25 @@
+version: "3.8"
+
+
+services:
+  saasrock-kb:
+    container_name: saasrock-kb
+    image: saasrockkb:latest
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      SESSION_SECRET: ${SESSION_SECRET}
+      OPENAI_API_KEY:  ${OPENAI_API_KEY}
+      LOGGED_AS_ADMIN: ${LOGGED_AS_ADMIN} 
+      DATABASE_URL: ${DATABASE_URL}
+      SUPABASE_API_URL: ${SUPABASE_API_URL}
+      SUPABASE_KEY: ${SUPABASE_KEY}
+      SUPABASE_ANON_PUBLIC_KEY: ${SUPABASE_ANON_PUBLIC_KEY}
+    ports:
+      - 3000
+  
+
+
+
+
